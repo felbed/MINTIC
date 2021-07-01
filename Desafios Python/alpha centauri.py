@@ -8,6 +8,8 @@
 # 1: La velocidad de la luz es: 299.792,458 kilómetros por segundo.
 # 2: Una milla por hora equivale a 1.60934 kilómetros por hora
 
+# SOLUCIÓN:
+
 alpha_centauri = 4.36 # Años luz de distancia
 
 al = 299792.458*(60)*(60)*(24)*(365) # Un año luz kilómetros/año
