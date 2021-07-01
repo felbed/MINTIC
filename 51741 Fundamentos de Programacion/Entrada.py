@@ -1,0 +1,8 @@
+a = int(input("Ingrese un entero: "))
+print(type(a))
+b = float(input("Ingrese un flotante: "))
+print(type(b))
+c = bool(input("Ingrese un booleano: "))
+print(type(c))
+d = input("Ingrese una cadena: ")
+print(type(d))
