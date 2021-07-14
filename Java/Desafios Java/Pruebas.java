@@ -1,5 +1,5 @@
-package Java.Desafios Java;
-
-public class Pruebas {
-    
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola mundo");
+    }
 }
