@@ -1,0 +1,29 @@
+@media only screen and (min-width: 300px) { 
+    #contenedor { 
+        background-color: cadetblue; 
+    } 
+} 
+
+@media (min-width: 15rem) {
+    #cabecera { 
+        background-color: chartreuse; 
+    }
+}
+
+
+#menu { 
+    float: left; 
+    width: 150px; 
+    background-color: darkblue; 
+} 
+
+#contenido { 
+    float: left; 
+    width: 550px; 
+    background-color: chocolate; 
+} 
+
+#pie { 
+    clear: both; 
+    background-color: chartreuse; 
+}

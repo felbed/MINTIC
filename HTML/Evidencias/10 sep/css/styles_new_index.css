@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {    
+    width: 100%;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+    
+.div1 {
+    grid-area: 1 / 1 / 4 / 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.123);
+}
+
+.div2 {
+    grid-area: 1 / 3 / 2 / 5;
+    background-image: url(../figures/producto2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div3 {
+    grid-area: 2 / 3 / 3 / 5;
+    background-image: url(../figures/producto3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div4 { 
+    grid-area: 3 / 3 / 4 / 5; 
+    background-image: url(../figures/producto4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+.content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    padding: 0.4em 1.5em;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    transform: scale(0.9);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.144);
+    overflow: hidden;
+    transition: all .4s;
+    border-radius: 10px;
+}
+
+.content p {
+    font-size: 0.8em;
+}
+
+.div1 img {
+    position: absolute;
+    width: 100%;
+}
+
+.div1:hover .content {
+    height: 250px;
+}
+
