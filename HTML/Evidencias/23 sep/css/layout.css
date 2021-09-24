@@ -1,0 +1,39 @@
+@media (min-width: 35rem) { 
+    #contenedor { 
+        background: yellow; 
+    } 
+} 
+
+@media (max-width: 50rem) { 
+    #contenedor { 
+        border: 2px solid blue; 
+    } 
+} 
+
+@media (width: 100%) { 
+    #img { 
+        border: 2px solid rgb(75, 206, 108); 
+    } 
+} 
+
+@media (min-width: 35rem) { 
+    #img { 
+        background: yellow; 
+    } 
+} 
+
+@media (max-width: 50rem) { 
+    #img { 
+        border: 2px solid rgb(32, 37, 7); 
+    } 
+    
+    #menu { 
+        width: 150px; 
+        background: blueviolet; 
+    } 
+    
+    #contenido{ 
+        width: 200px; 
+        background-color: burlywood; 
+    } 
+}
