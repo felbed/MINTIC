@@ -54,5 +54,18 @@ while (x2 < 5) {
         x1++;       
     }
     x2++;
-    
 }
+
+var contador = 0;
+do{ 
+    console.log(contador); 
+    contador++; 
+} while(contador < 3); 
+
+console.log("Fin ciclo do while");
+
+for(let contador = 0; contador < 3 ; contador++ ) { 
+    console.log(contador); 
+} 
+
+console.log("Fin ciclo for");
