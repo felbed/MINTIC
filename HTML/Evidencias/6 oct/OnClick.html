@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Manejo Evento On Click</title>
+</head>
+
+<body>
+    <h1 onclick="cambiarTexto(this)">Ejemplo</h1> 
+    <br />
+    <script> 
+        function cambiarTexto(titulo) { 
+            console.log(titulo); 
+            console.log(titulo.innerHTML); 
+            titulo.innerHTML = 'Cambiamos el título'; console.log(titulo.innerHTML); 
+            }
+    </script>
+    <h1 onclick="cambiarTexto(this)">Ejemplo</h1> 
+    <br />
+    <script> 
+        function cambiarTexto(titulo) { 
+            console.log(titulo); 
+            console.log(titulo.innerHTML); 
+            titulo.innerHTML = 'Cambiamos el título'; 
+            console.log(titulo.innerHTML); 
+            }
+    </script>
+</body>
+
+</html>
